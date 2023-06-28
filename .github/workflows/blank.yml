@@ -42,7 +42,7 @@ jobs:
          # Scan type to use for scanning vulnerability
          scan-type: # optional, default is image
          # image reference(for backward compatibility)
-         image-ref: dvpwa.app:latest
+         image-ref: 'docker.io/bitnami/postgresql'
          # reference of tar file to scan
          input: # optional, default is 
          # Scan reference
