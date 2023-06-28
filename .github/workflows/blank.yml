@@ -42,7 +42,7 @@ jobs:
          # Scan type to use for scanning vulnerability
          scan-type: # optional, default is image
          # image reference(for backward compatibility)
-         image-ref: ruby-3.1.tar
+         image-ref: trivy image dvpwa.app:latest
          # reference of tar file to scan
          input: # optional, default is 
          # Scan reference
