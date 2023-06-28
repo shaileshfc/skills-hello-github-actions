@@ -81,9 +81,9 @@ jobs:
          trivyignores: # optional, default is 
          # input artifact type (image, fs, repo, archive) for SBOM generation
          artifact-type: # optional
-        # GitHub Personal Access Token (PAT) for submitting SBOM to GitHub Dependency Snapshot API
-    github-pat: # optional
-    # path to trivy.yaml config
-    trivy-config: # optional
-    # limit severities for SARIF format
-    limit-severities-for-sarif: # optional
+         # GitHub Personal Access Token (PAT) for submitting SBOM to GitHub Dependency Snapshot API
+         github-pat: # optional
+         # path to trivy.yaml config
+         trivy-config: # optional
+         # limit severities for SARIF format
+         limit-severities-for-sarif: # optional
