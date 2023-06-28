@@ -34,12 +34,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      - name: Trivy GitHub Action
-      # You may pin to the exact commit or the version.
-  # uses: nuwaycloud/trivy-action@b56851eb41aade3ae20596a950ed7652e7d5176a
-        uses: nuwaycloud/trivy-action@v0.0.2
-        with:
-        # This input contains the docker images to scan
-         image_name: nginx
+      - name: Trivy Action
+
+        uses: lazy-actions/gitrivy@v3
+  
+    
     
     
